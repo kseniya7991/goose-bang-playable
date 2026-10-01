@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Goose Bang Demo</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="src/style.css"/>
+	</head>
+	<body>
+		<div class="game js-game">
+			<div class="game__container">
+				<div class="game__canvas js-game__canvas">
+					<button class="game__sound-controller js-game__sound-control"></button>
+					<div class="game__result js-game__result">
+						<div class="game__result-mult">
+							x<span class="js-game__mult">1.49</span>
+						</div>
+						<div class="game__result-sum">
+							R$
+							<span class="js-game__sum ">149</span>
+						</div>
+					</div>
+				</div>
+				<div id="game-ui">
+					<div class="ui-container">
+						<div class="ui-block">
+							<div class="ui-block__value balance">
+								<span class="js-game__balance" id="balance">100 000</span>
+								fun
+							</div>
+							<div class="label">Saldo</div>
+						</div>
+
+						<div class="ui-block">
+							<div class="ui-block__value win">
+								<span class="js-game__win" id="win">0</span>
+								fun
+							</div>
+							<div class="label">Ganho</div>
+						</div>
+
+						<div class="ui-block bet">
+							<div class="bet-controls">
+								<button id="bet-minus" class="arrow">◀</button>
+								<div class="ui-block__value">
+									<span id="bet" class="bet-value">100</span>
+									fun
+								</div>
+								<button id="bet-plus" class="arrow">▶</button>
+							</div>
+							<div class="label">Aposta</div>
+						</div>
+					</div>
+					<div class="ui-action">
+						<button id="action-btn" class="action-btn"></button>
+					</div>
+				</div>
+
+				<div class="popup-cashout js-game__cashout-popup">
+					<div class="popup-cashout__win">Você ganhou:
+						<span class="popup-cashout__sum">
+							<span class="js-game__win">5930</span>
+							R$
+						</span>
+					</div>
+					<div class="popup-cashout__btns">
+						<button class="game__btn game__btn--secondary js-game__play">Ficar</button>
+						<a href="{link}" class="game__btn game__btn--primary">Ir para conta real</a>
+					</div>
+				</div>
+
+				<div class="popup-final js-game__final">
+					<div class="popup-final__content">
+						<div class="popup-final__text">
+							A demonstração está finalizada. Agora é hora de jogar com dinheiro real. Cadastre-se, faça um depósito e ganhe um super bônus de 150%:
+						</div>
+						<a href="{link}" class="game__btn btn--primary">PLAY</a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<script type="module" src="src/main.js"></script>
+	</body>
+</html>
