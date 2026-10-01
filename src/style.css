@@ -252,7 +252,7 @@ body {
 }
 
 .action-btn {
-    background-image: url("/play.webp");
+    background-image: url("./media/play.webp");
     background-size: cover;
 }
 
@@ -263,12 +263,12 @@ body {
 }
 
 .game[data-phase="playing"] .action-btn {
-    background-image: url("/shoot.webp");
+    background-image: url("./media/shoot.webp");
 }
 
 .game[data-phase="finishing"] .action-btn,
 .game[data-phase="preparing"] .action-btn {
-    background-image: url("/shoot.webp");
+    background-image: url("./media/shoot.webp");
     filter: grayscale(1);
     pointer-events: none;
 }
@@ -380,7 +380,7 @@ body {
     position: absolute;
     top: -20px;
     left: 10px;
-    background-image: url("/cloud1.webp");
+    background-image: url("./media/cloud1.webp");
     width: 200px;
     height: 100px;
     background-size: contain;
@@ -394,7 +394,7 @@ body {
     position: absolute;
     top: -10px;
     right: -10px;
-    background-image: url("/cloud2.webp");
+    background-image: url("./media/cloud2.webp");
     width: 150px;
     height: 80px;
     background-size: contain;

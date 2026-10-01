@@ -12,8 +12,9 @@ npm run build   # production build -> dist/
 
 ## Build size
 
+Single-file build: all JS, CSS, images, fonts, sounds and Spine data are inlined into `dist/index.html`.
+
 | | Size |
 |---|---|
-| `dist/` total | 9.2 MB |
-| `dist/` zipped | 6.8 MB |
-| `dist/index.html` (JS, CSS and imported assets inlined) | 5.5 MB |
+| `dist/index.html` | 5.5 MB |
+| gzipped | 3.7 MB |

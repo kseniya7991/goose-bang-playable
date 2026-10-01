@@ -11,14 +11,14 @@ import water1 from "./media/water1.webp?url";
 import water2 from "./media/water2.webp?url";
 
 // Spine assets for Goose - import as raw text and data
-import gooseSkeletonData from "../public/goose.json";
-import gooseAtlasData from "../public/goose_desktop.atlas?raw";
-import gooseTexture from "../public/goose_desktop.webp?url";
+import gooseSkeletonData from "./media/goose.json";
+import gooseAtlasData from "./media/goose_desktop.atlas?raw";
+import gooseTexture from "./media/goose_desktop.webp?url";
 
 // Spine assets for Rifle - import as raw text and data
-import rifleSkeletonData from "../public/rifle.json";
-import rifleAtlasData from "../public/rifle_desktop.atlas?raw";
-import rifleTexture from "../public/rifle_desktop.webp?url";
+import rifleSkeletonData from "./media/rifle.json";
+import rifleAtlasData from "./media/rifle_desktop.atlas?raw";
+import rifleTexture from "./media/rifle_desktop.webp?url";
 
 // AUDIO
 import audioJson from "./media/audiosprite_pc.json";
